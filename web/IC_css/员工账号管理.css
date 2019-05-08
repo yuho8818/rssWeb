@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+
+ul.is-authority-list{
+	list-style-type:none;
+	text-align:left;
+	padding-right:32px;
+}
+li.is-list-li {
+	margin-bottom:0px;
+	padding-left:120px;
+}
+li.is-list-li a{
+	color:black;
+}
+
+ul.is-authority-collapse{
+	margin-top:0px;
+	padding-top:0px;
+	list-style-type:none;
+	margin-bottom:0px;
+}
+
+ul.is-authority-collapse li{
+	
+}
