@@ -117,6 +117,8 @@ public class HttpChannelListener extends HttpServlet {
 		}
 		
 		ServletContext tmp=getServletContext();
+//		PrintWriter out = response.getWriter();
+//		out.write(serviceResult);
 		RequestDispatcher dipather = request.getRequestDispatcher("/"+clientPage+".jsp");
 		dipather.forward(request,response);
 		 Date end_time = new Date();

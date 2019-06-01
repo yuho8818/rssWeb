@@ -1,0 +1,15 @@
+﻿人员健康管理/PersonalHealth_Info;;
+属性中文名;属性英文名;类型
+职工号;workerID;Varchar(32)
+体检日期;checkDate;Varchar(10)
+体检机构;checkOrg;Varchar(32)
+是否复检;isReview;Varchar(32)
+结果概述;resultSummarize;Varchar(320)
+禁忌病;tabooDisease;Varchar(32)
+备注;remarksText;Varchar(320)
+危害因素;hazardFactors;Varchar(32)
+项目编号;itemNo;Varchar(32)
+项目名称;itemName;Varchar(32)
+项目标准;itemStandard;Varchar(32)
+检查结果;itemResult;Varchar(32)
+结果诊断;itemDiagnotics;Varchar(32)

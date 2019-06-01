@@ -1,0 +1,8 @@
+﻿外审管理/OutsIDeAudit_Info;;
+属性中文名;属性英文名;类型
+检查内容;checkContent;Varchar(32)
+条款;provision;Varchar(32)
+审核要点;reviewPoint;Varchar(32)
+审核方法;reviewMethod;Varchar(32)
+审核记录;reviewRecord;Varchar(320)
+备注;remark;Varchar(400)

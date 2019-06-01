@@ -1,0 +1,9 @@
+﻿不符合工作管理/Unstatisfied_Info;;
+属性中文名;属性英文名;类型
+检测时间;checkDateTime;Varchar(20)
+事项描述;itemDescription;Varchar(32)
+检测人员;checkPerson;Varchar(32)
+责任人;responsibilityPerson;Varchar(32)
+责任部门;responsibilityDept;Varchar(32)
+严重性等级;accIDentSeverity;Varchar(32)
+拟采取措施;proposedMeasures;Varchar(320)

@@ -1,0 +1,15 @@
+﻿申投诉管理/Complaints_Info;;
+属性中文名;属性英文名;类型
+投诉人;complaintPerson;Varchar(32)
+投诉人部门;complaintDept;Varchar(32)
+投诉日期;complaintDate;Varchar(10)
+投诉内容;complaintContent;Varchar(320)
+被投诉人;beComplainantPerson;Varchar(32)
+被投诉部门;beComplainantDept;Varchar(32)
+受理人;acceptPerson;Varchar(32)
+受理人意见;acceptSuggestion;Varchar(320)
+受理日期;acceptDate;Varchar(10)
+审核;audit;Varchar(32)
+审核日期;auditDate;Varchar(10)
+复核;reAudit;Varchar(32)
+复核日期;reAuditDate;Varchar(10)

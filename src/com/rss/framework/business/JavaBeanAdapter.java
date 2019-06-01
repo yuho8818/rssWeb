@@ -272,6 +272,14 @@ public final class JavaBeanAdapter {
 		if (pageNoNode != null) {
 			newEntity.setPageNo(pageNoNode.getNodeValue());
 		}
+		Node totalRecordsNode = element.getAttributes().getNamedItem("totalRecords");
+		if (totalRecordsNode != null) {
+			newEntity.setTotalRecords(totalRecordsNode.getNodeValue());
+		}
+		Node totalPagesNode = element.getAttributes().getNamedItem("totalPages");
+		if (totalPagesNode != null) {
+			newEntity.setTotalPages(totalPagesNode.getNodeValue());
+		}
 		Node orderByNode = element.getAttributes().getNamedItem("orderBy");
 		if (orderByNode != null) {
 			newEntity.setOrderBy(orderByNode.getNodeValue());

@@ -1,0 +1,8 @@
+﻿评审管理/ManagementReview_Info;;
+属性中文名;属性英文名;类型
+评审时间;inspectionDateTime;Varchar(20)
+评审目的;inspectionPurpose;Varchar(32)
+评审人员;inspectionPeople;Varchar(32)
+评审内容;inspectionContent;Varchar(32)
+评审结论;inspectionResult;Varchar(64)
+责任部门;responsibilityDept;Varchar(32)

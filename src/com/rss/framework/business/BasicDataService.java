@@ -93,15 +93,15 @@ public class BasicDataService implements IDataService {
 				String operation = entity.getOperation();
 				if (entity.getSql()==null || entity.getSql().length()==0){					
 					if ("save".equals(operation)) {
-//						if (!checkEntityUnique(entity))
-//							throw new RssRuntimeException("记录已存在");
+						if (checkEntityUnique(entity))
+							throw new RssRuntimeException("该UID记录已存在");
 						newEntityList.add(insertInstance(entity));
 					} else if ("update".equals(operation)) {
-						if (checkEntityUnique(entity)) 
+						if (!checkEntityUnique(entity))
 							throw new RssRuntimeException("记录不存在");
 						newEntityList.add(updateInstance(entity));
 					} else if ("delete".equals(operation)) {
-						if (checkEntityUnique(entity)) 
+						if (!checkEntityUnique(entity))
 							throw new RssRuntimeException("记录不存在");
 						newEntityList.add(deleteInstance(entity));
 					} else 	newEntityList.addAll(findInstances(entity));
@@ -232,11 +232,12 @@ public class BasicDataService implements IDataService {
 		
 			Object objectUID = entity.getAttributeValue(entity.getObjectID() + "UID");
 			String sql = "select count(*) rsCount from " + entity.getObjectID();
-			if (objectUID == null) {
-				sql += " where " + entity.getObjectID() + "UID is not ?";
-			} else {
-				sql += " where " + entity.getObjectID() + "UID != ? ";
-			}
+//			if (objectUID == null) {
+//				sql += " where " + entity.getObjectID() + "UID is not ?";
+//			} else {
+//				sql += " where " + entity.getObjectID() + "UID = ? ";
+//			}
+		    sql += " where " + entity.getObjectID() + "UID = ? ";
 			int k=0;
 			if (uniques != null && uniques.size() > 0) {
 				k=uniques.size();
@@ -262,8 +263,9 @@ public class BasicDataService implements IDataService {
 			}
 			paramsLog += "]****";
 			logger.info(paramsLog);
+			System.out.println(sql);
 			int count = jdbcTemplate.queryForInt(sql, params);
-			if (count > 0) {
+			if (count == 0) {
 				logger.info("***************FUNCTION [checkEntityUnique] END*****************");
 				return false;
 			}

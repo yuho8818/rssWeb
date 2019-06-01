@@ -1,0 +1,8 @@
+﻿纠正预防管理/Correct_Info;;
+属性中文名;属性英文名;类型
+不符合工作编号;unstatisfiedNo;Varchar(32)
+完成日期;finishDate;Varchar(10)
+复审人员;reviewPerson;Varchar(32)
+被审人员;auditedPerson;Varchar(32)
+被审核日期;auditedData;Varchar(10)
+重审日期;reauditedData;Varchar(10)

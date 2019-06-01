@@ -1,0 +1,10 @@
+﻿人员安全培训管理/SafeTrain_Info;;
+属性中文名;属性英文名;类型
+受教育人;educatePeople;Varchar(32)
+一级教育状态;firstClassStatus;Varchar(32)
+一级教育人;fisrtClassTeacher;Varchar(32)
+二级教育状态;secondClassStatus;Varchar(32)
+二级教育人;secondClassTeacher;Varchar(32)
+三级教育状态;thirdClassStatus;Varchar(32)
+三级教育人;thirdClassTeacher;Varchar(32)
+安环科确认;verify;Varchar(32)

@@ -1,0 +1,12 @@
+﻿设备环保管理/EquipEnv_Info;;
+属性中文名;属性英文名;类型
+设备名称;equipName;Varchar(32)
+设备编号;equipNo;Varchar(32)
+设备类型;equipType;Varchar(32)
+所属部门;deptartment;Varchar(32)
+检测指标;testIndex;Varchar(32)
+指标数值;testValue;Varchar(32)
+是否超标;isOverproof;Varchar(32)
+检测日期;testDate;Varchar(10)
+检测人;testPerson;Varchar(32)
+备注;remark;Varchar(320)

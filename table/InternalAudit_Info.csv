@@ -1,0 +1,9 @@
+﻿内审管理/InternalAudit_Info;;
+属性中文名;属性英文名;类型
+受审核部门;auditedDept;Varchar(32)
+审核员;auditedPerson;Varchar(32)
+时间;auditedDateTime;Varchar(20)
+标准条款;standardTerms;Varchar(320)
+审核内容;auditedContent;Varchar(320)
+审核方法;auditedMethod;Varchar(32)
+审核记录;auditedRecord;Varchar(64)

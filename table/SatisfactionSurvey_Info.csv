@@ -1,0 +1,9 @@
+﻿满意度调查管理/SatisfactionSurvey_Info;;
+属性中文名;属性英文名;类型
+调查人员;surveryPerson;Varchar(32)
+调查部门;surveryDept;Varchar(32)
+调查方式;surveryMethod;Varchar(32)
+调查时间;surveryDateTime;Varchar(20)
+调查内容;surveryContent;Varchar(320)
+调查总体满意度;overallSatisfaction;Varchar(32)
+备注;remark;Varchar(320)

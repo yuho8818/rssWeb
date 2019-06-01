@@ -8,10 +8,24 @@
   <component name="ChangeListManager">
     <list default="true" id="ad28a413-ab32-4c26-b6c9-d3c20853818f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/business/BasicDataService$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/business/BasicDataService$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/business/BasicDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/business/BasicDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/business/JavaBeanAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/business/JavaBeanAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/runtime/HttpChannelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/runtime/HttpChannelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/util/GenerateHtmlByDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/classes/com/rss/framework/util/GenerateHtmlByDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/rssWeb_war_exploded/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rss/framework/business/BasicDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rss/framework/business/BasicDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rss/framework/business/JavaBeanAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rss/framework/business/JavaBeanAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rss/framework/runtime/HttpChannelListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rss/framework/runtime/HttpChannelListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rss/framework/test/back2frontTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rss/framework/test/back2frontTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rss/framework/util/GenerateHtmlByDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rss/framework/util/GenerateHtmlByDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table/SoildChemical_Info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/table/SoildChemical_Info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rss/framework/business/BasicDataService$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rss/framework/business/BasicDataService$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rss/framework/business/BasicDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rss/framework/business/BasicDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rss/framework/business/JavaBeanAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rss/framework/business/JavaBeanAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/rss/framework/runtime/HttpChannelListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rss/framework/runtime/HttpChannelListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/rss/framework/util/GenerateHtmlByDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/rss/framework/util/GenerateHtmlByDatabase.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,23 +50,63 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rss/framework/ProjectInit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>queryfor</find>
-      <find>com.microsoft.sqlserver.jdbc.SQLServerDriver</find>
-      <find>DRIVER_CLASS_NAME_SQLSERVER</find>
-      <find>JavaBeanAdapter</find>
-      <find>buildDomFromXMLString</find>
+      <find>dischargePlace</find>
+      <find>registrant</find>
+      <find>table_model_name</find>
+      <find>delete_sure</find>
+      <find>14</find>
+      <find>新增确认</find>
+      <find>newTr</find>
+      <find>request</find>
+      <find>var request =</find>
+      <find>&lt;/BasicDAS&gt;&quot;;</find>
+      <find>&lt;BasicDAS&gt;</find>
+      <find>delete</find>
+      <find>UNSTATISFIED_INFOUID</find>
+      <find>ajax</find>
+      <find>succ</find>
+      <find>totalRecords</find>
+      <find>重新排序</find>
+      <find>search</find>
+      <find>dept</find>
+      <find>client</find>
+      <find>success</find>
+      <find>fals</find>
+      <find>pageNo</find>
+      <find>Sewage_Info</find>
+      <find>head_ch</find>
+      <find>污水管理</find>
+      <find>clientPage</find>
+      <find>Sewage</find>
+      <find>,</find>
+      <find>删除</find>
     </findStrings>
+    <replaceStrings>
+      <replace>;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,13 +117,53 @@
         <option value="$PROJECT_DIR$/src/com/rss/framework/util/ObjectUIDGenerater.java" />
         <option value="$PROJECT_DIR$/src/com/rss/framework/runtime/RuntimeEngine.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/config/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/com/rss/framework/runtime/HttpChannelListener.java" />
         <option value="$PROJECT_DIR$/src/com/rss/framework/util/RssRuntimeException.java" />
+        <option value="$PROJECT_DIR$/web/部门管理.jsp" />
+        <option value="$PROJECT_DIR$/web/IC_js/侧导航栏.js" />
+        <option value="$PROJECT_DIR$/web/IC_js/部门管理.js" />
         <option value="$PROJECT_DIR$/src/com/rss/framework/util/GenerateHtmlByDatabase.java" />
+        <option value="$PROJECT_DIR$/web/IC_css/共用.css" />
+        <option value="$PROJECT_DIR$/web/﻿固化体管理表.jsp" />
+        <option value="$PROJECT_DIR$/web/IC_js/﻿固化体管理表.js" />
+        <option value="$PROJECT_DIR$/web/污水管理.jsp" />
+        <option value="$PROJECT_DIR$/web/IC_js/﻿不符合工作.js" />
         <option value="$PROJECT_DIR$/src/com/rss/framework/business/BasicDataService.java" />
+        <option value="$PROJECT_DIR$/src/com/rss/framework/test/back2frontTest.java" />
+        <option value="$PROJECT_DIR$/web/IC_js/﻿纠正预防管理.js" />
+        <option value="$PROJECT_DIR$/web/test.jsp" />
+        <option value="$PROJECT_DIR$/web/IC_js/test.js" />
+        <option value="$PROJECT_DIR$/src/com/rss/framework/runtime/HttpChannelListener.java" />
+        <option value="$USER_HOME$/Desktop/华电/WebRoot/部门管理.jsp" />
+        <option value="$PROJECT_DIR$/src/com/rss/framework/business/JavaBeanAdapter.java" />
+        <option value="$PROJECT_DIR$/web/顶部栏.jsp" />
+        <option value="$PROJECT_DIR$/web/侧导航栏.jsp" />
+        <option value="$PROJECT_DIR$/web/IC_js/污水管理.js" />
+        <option value="$PROJECT_DIR$/web/Sewage_Info.jsp" />
+        <option value="$PROJECT_DIR$/web/IC_js/Sewage_Info.js" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/SEWAGE_INFO.jsp" />
+        <option value="$PROJECT_DIR$/table/SafeTrain_Info.csv" />
+        <option value="$PROJECT_DIR$/table/Complaints_Info.csv" />
+        <option value="$PROJECT_DIR$/table/Correct_Info.csv" />
+        <option value="$PROJECT_DIR$/table/EquipEnv_Info.csv" />
+        <option value="$PROJECT_DIR$/table/InternalAudit_Info.csv" />
+        <option value="$PROJECT_DIR$/table/ManagementReview_Info.csv" />
+        <option value="$PROJECT_DIR$/table/OutsIDeAudit_Info.csv" />
+        <option value="$PROJECT_DIR$/table/PersonalHealth_Info.csv" />
+        <option value="$PROJECT_DIR$/table/SatisfactionSurvey_Info.csv" />
+        <option value="$PROJECT_DIR$/table/SoildChemical_Info.csv" />
+        <option value="$PROJECT_DIR$/table/SpecialEquipment_Info.csv" />
+        <option value="$PROJECT_DIR$/table/Unstatisfied_Info.csv" />
+        <option value="$PROJECT_DIR$/table/QualityControl_Info.csv" />
+        <option value="$PROJECT_DIR$/web/SPECIALEQUIPMENT_INFO.jsp" />
+        <option value="$PROJECT_DIR$/web/﻿内审管理.jsp" />
+        <option value="$PROJECT_DIR$/web/NagivationBar.jsp" />
+        <option value="$PROJECT_DIR$/table/Sewage_Info.csv" />
+        <option value="$PROJECT_DIR$/web/IC_js/SEWAGE_INFO.js" />
+        <option value="$PROJECT_DIR$/src/com/rss/framework/util/GenerateByCSV.java" />
+        <option value="$PROJECT_DIR$/src/com/rss/framework/ProjectInit.java" />
       </list>
     </option>
   </component>
@@ -93,7 +187,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1936" />
@@ -105,8 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,24 +209,25 @@
             <path>
               <item name="rssWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="rssWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rssWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rssWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rssWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="rssWeb" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rssWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rssWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,15 +236,16 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557322829202" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559361722311" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47931033" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuho\IdeaProjects\rssWeb\table" />
       <recent name="C:\Users\yuho\IdeaProjects\rssWeb\web" />
       <recent name="C:\Users\yuho\IdeaProjects\rssWeb\src" />
       <recent name="C:\Users\yuho\IdeaProjects\rssWeb" />
@@ -169,7 +263,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProjectInit">
+    <configuration name="GenerateHtmlByDatabase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rss.framework.util.GenerateHtmlByDatabase" />
+      <module name="rssWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rss.framework.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rss.framework.ProjectInit" />
+      <module name="rssWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rss.framework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="back2frontTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rss.framework.test.back2frontTest" />
+      <module name="rssWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rss.framework.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings>
@@ -399,6 +532,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8.5.40" />
+      <item itemvalue="Application.GenerateHtmlByDatabase" />
+      <item itemvalue="Application.ProjectInit" />
+      <item itemvalue="Application.back2frontTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProjectInit" />
+        <item itemvalue="Application.back2frontTest" />
+        <item itemvalue="Application.GenerateHtmlByDatabase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -428,12 +574,41 @@
       <workItem from="1557214378000" duration="1875000" />
       <workItem from="1557229057016" duration="3680000" />
       <workItem from="1557296700026" duration="610000" />
-      <workItem from="1557322451518" duration="277000" />
+      <workItem from="1557322451518" duration="2229000" />
+      <workItem from="1557371344595" duration="24000" />
+      <workItem from="1557379168845" duration="1154000" />
+      <workItem from="1557414587219" duration="1260000" />
+      <workItem from="1557454311480" duration="17000" />
+      <workItem from="1557573859360" duration="754000" />
+      <workItem from="1557650894291" duration="17329000" />
+      <workItem from="1557714476275" duration="26000" />
+      <workItem from="1557734898111" duration="3442000" />
+      <workItem from="1557754392705" duration="9289000" />
+      <workItem from="1557801281998" duration="642000" />
+      <workItem from="1557805030014" duration="16000" />
+      <workItem from="1557840424242" duration="9998000" />
+      <workItem from="1557889901402" duration="220000" />
+      <workItem from="1557890981202" duration="26393000" />
+      <workItem from="1557975952375" duration="12490000" />
+      <workItem from="1558168396609" duration="11900000" />
+      <workItem from="1558244568489" duration="12270000" />
+      <workItem from="1558404637320" duration="605000" />
+      <workItem from="1558443735810" duration="205000" />
+      <workItem from="1558443985820" duration="2326000" />
+      <workItem from="1558451076503" duration="2136000" />
+      <workItem from="1558601963846" duration="43000" />
+      <workItem from="1558791415031" duration="618000" />
+      <workItem from="1558837802943" duration="7271000" />
+      <workItem from="1558953138668" duration="496000" />
+      <workItem from="1559017083667" duration="39536000" />
+      <workItem from="1559277184182" duration="32000" />
+      <workItem from="1559277639442" duration="7257000" />
+      <workItem from="1559357316417" duration="2908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38239000" />
+    <option name="totallyTimeSpent" value="210848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,9 +621,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.30490404" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.3001066" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.29051173" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -457,17 +633,17 @@
       <window_info id="Web" order="7" sideWeight="0.50161815" side_tool="true" weight="0.17857143" />
       <window_info id="JavaEE:App" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.330076" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.2844734" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5849359" weight="0.2942454" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978678" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32899022" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49679488" weight="0.32790446" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49946696" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4150641" side_tool="true" weight="0.4087912" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32899022" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
@@ -493,89 +669,36 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/rss/framework/business/JavaBeanAdapter.java</url>
-          <line>94</line>
+          <url>file://$PROJECT_DIR$/src/com/rss/framework/test/back2frontTest.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/Desktop/华电/WebRoot/部门管理.jsp</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/Desktop/华电/WebRoot/部门管理.jsp</url>
+          <line>201</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="entity.attributeList.get(2)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/OperationLogBean.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/IDataService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/ObjectUIDGenerater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/ArithmeticExpressionCompiler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/config/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/runtime/UploadListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="78" selection-start-line="63" selection-start-column="70" selection-end-line="63" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/org.springframework.jdbc/3.1.2.RELEASE/org.springframework.jdbc-3.1.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="572" column="15" selection-start-line="572" selection-start-column="15" selection-end-line="572" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/XMLBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2910">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -586,87 +709,332 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/PageSqlTool.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/ArithmeticExpressionCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="128" column="31" selection-start-line="128" selection-start-column="31" selection-end-line="135" selection-end-column="15" />
+        <state relative-caret-position="76">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/RssRuntimeException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/ObjectUIDGenerater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="608">
+          <caret line="32" column="20" selection-start-line="30" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/BusinessObjectEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/XMLBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="262" column="26" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="26" />
+        <state relative-caret-position="822">
+          <caret line="73" column="55" selection-start-line="73" selection-start-column="55" selection-end-line="73" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/org.springframework.context/3.1.2.RELEASE/org.springframework.context-3.1.2.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+    <entry file="file://$PROJECT_DIR$/web/IC_js/﻿纠正预防管理.js" />
+    <entry file="file://$PROJECT_DIR$/web/﻿纠正预防管理.jsp" />
+    <entry file="file://$USER_HOME$/Desktop/华电/WebRoot/部门管理.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="1216">
+          <caret line="163" column="66" lean-forward="true" selection-start-line="163" selection-start-column="66" selection-end-line="163" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/org/w3c/dom/Document.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="580" column="23" selection-start-line="580" selection-start-column="8" selection-end-line="580" selection-end-column="23" />
+        <state relative-caret-position="304">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/BasicDataService.java">
+    <entry file="file://$PROJECT_DIR$/web/IC_js/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="108" column="51" lean-forward="true" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
+        <state relative-caret-position="171">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/runtime/HttpChannelListener.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/test/back2frontTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2166">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/BusinessEntityAttribute.java">
+    <entry file="file://$PROJECT_DIR$/web/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="36" />
+        <state relative-caret-position="315">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/JavaBeanAdapter.java">
+    <entry file="file://$PROJECT_DIR$/web/IC_js/Communal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4503">
-          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/IDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/IC_css/Communal.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/runtime/RuntimeEngine.java">
+    <entry file="file://$PROJECT_DIR$/web/SAFETRAIN_INFO.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
+        <state relative-caret-position="474">
+          <caret line="39" column="56" lean-forward="true" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/GenerateHtmlByDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/Complaints_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/Correct_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/EquipEnv_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/InternalAudit_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/ManagementReview_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/OutsIDeAudit_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/Unstatisfied_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/PersonalHealth_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/SafeTrain_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/QualityControl_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SPECIALEQUIPMENT_INFO.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3211">
+          <caret line="229" column="69" selection-start-line="229" selection-start-column="69" selection-end-line="229" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/IC_js/SPECIALEQUIPMENT_INFO.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/SpecialEquipment_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/TopBar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/﻿内审管理.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/IC_js/NagivationBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rssWeb.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/tree.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/IC_js/SOILDCHEMICAL_INFO.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SEWAGE_INFO.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="39" column="57" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/SoildChemical_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
+          <caret column="24" selection-start-column="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/NagivationBar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/SatisfactionSurvey_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table/Sewage_Info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.rss.framework.business.BusinessObjectEntity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.rss.framework.business.BusinessObjectEntity</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.rss.framework.business.BusinessObjectEntity</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.6628571428571437" x="29.0" y="124.0" />
+          <SelectedNodes>
+            <node>com.rss.framework.business.BusinessObjectEntity</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/BusinessEntityAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/IC_js/SEWAGE_INFO.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3903">
+          <caret line="163" column="29" lean-forward="true" selection-start-line="163" selection-start-column="29" selection-end-line="163" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/BusinessObjectEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3238">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/JavaBeanAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="322" column="61" selection-start-line="322" selection-start-column="51" selection-end-line="322" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/util/GenerateByCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="489" column="58" selection-start-line="489" selection-start-column="58" selection-end-line="489" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/runtime/RuntimeEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/business/BasicDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="105" column="37" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/runtime/HttpChannelListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rss/framework/ProjectInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,10 @@
+﻿质量控制计划管理/QualityControl_Info;;
+属性中文名;属性英文名;类型
+计划监控项目;monotiorProject;Varchar(32)
+采用监控方法;monotiorMethod;Varchar(32)
+完成时限;deadline;Varchar(32)
+参加部门;partDept;Varchar(32)
+计划评估时间;evaluateDateTime;Varchar(20)
+数量;amount;Numeric(12,4)
+实施负责人;executiveDirector;Varchar(32)
+备注;remark;Varchar(320)

@@ -1,0 +1,13 @@
+﻿特种设备管理/SpecialEquipment_Info;;
+属性中文名;属性英文名;类型
+特种设备名称;equipName;Varchar(32)
+内部编号;innerNo;Varchar(32)
+设备注册代码;equipRegisterNo;Varchar(32)
+使用证编号;usageNo;Varchar(32)
+制造日期;manufactureDate;Varchar(10)
+投用日期;useDate;Varchar(10)
+设备所在位置;equipLocation;Varchar(32)
+设备使用情况;equipStatus;Varchar(32)
+设备操作责任人;equipOperator;Varchar(32)
+检验有效期;shelfLife;Varchar(32)
+备注;remark;Varchar(320)
