@@ -82,16 +82,16 @@ public class BasicDataService implements IDataService {
 	 * @return 处理结束后返回的数据
 	 * @throws RssRuntimeException 异常
 	 */
-	public String execute(ArrayList<BusinessObjectEntity> entityList, String ip, String mac,String userID) throws RssRuntimeException {
+	public String execute(ArrayList<BusinessObjectEntity> entityList, String ip, String mac, String userID) throws RssRuntimeException {
 		logger.info("***************FUNCTION [BasicDataService] START*****************");
 		this.ip = ip;
 		this.mac = mac;
-		this.userID=userID;
-		ArrayList<BusinessObjectEntity> newEntityList = new ArrayList<BusinessObjectEntity>();	
-		if (entityList != null && entityList.size() > 0) {					
+		this.userID = userID;
+		ArrayList<BusinessObjectEntity> newEntityList = new ArrayList<BusinessObjectEntity>();
+		if (entityList != null && entityList.size() > 0) {
 			for (BusinessObjectEntity entity : entityList) {
 				String operation = entity.getOperation();
-				if (entity.getSql()==null || entity.getSql().length()==0){					
+				if (entity.getSql() == null || entity.getSql().length() == 0) {
 					if ("save".equals(operation)) {
 						if (checkEntityUnique(entity))
 							throw new RssRuntimeException("该UID记录已存在");
@@ -104,29 +104,27 @@ public class BasicDataService implements IDataService {
 						if (!checkEntityUnique(entity))
 							throw new RssRuntimeException("记录不存在");
 						newEntityList.add(deleteInstance(entity));
-					} else 	newEntityList.addAll(findInstances(entity));
-				}else{
-					if ("query".equals(operation)){
+					} else newEntityList.addAll(findInstances(entity));
+				} else {
+					if ("query".equals(operation)) {
 						newEntityList.addAll(queryBySqlEntity(entity));
-					}
-					else if("saves".equals(operation)){
-						String sql=entity.getSql();
-						String[] tp=sql.split("\\?");
-						String[] params=new String[tp.length-1];
-						for(int i=0;i<params.length;i++)
-							params[i]= new ObjectUIDGenerater().generate();
+					} else if ("saves".equals(operation)) {
+						String sql = entity.getSql();
+						String[] tp = sql.split("\\?");
+						String[] params = new String[tp.length - 1];
+						for (int i = 0; i < params.length; i++)
+							params[i] = new ObjectUIDGenerater().generate();
 						newEntityList.add(updateBySqlEntity(entity, params));
-					}
-					else 
+					} else
 						newEntityList.add(updateBySqlEntity(entity, null));
 				}
-				
+
 			}
-			
+
 		}
-		
+
 		if (newEntityList.size() == 0) {
-			throw new RssRuntimeException("没有记录！");			
+			throw new RssRuntimeException("没有记录！");
 		}
 		logger.info("***************FUNCTION [execute] END*****************");
 		return JavaBeanAdapter.buildMessageFromObjectList(newEntityList);

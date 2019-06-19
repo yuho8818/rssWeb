@@ -64,10 +64,11 @@ public class GenerateByCSV {
     public void createHtml(){
         BufferedWriter out = null;
         try {
-            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\\Users\\yuho\\IdeaProjects\\rssWeb\\web\\"+head_en+".jsp"),"UTF-8"));
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
+            String dir  = new File(".").getCanonicalPath();
+            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dir+"\\web\\"+head_en+".jsp"),"UTF-8"));
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
         try {
@@ -395,10 +396,13 @@ public class GenerateByCSV {
     public void createJs(){
         BufferedWriter out = null;
         try {
-            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\\Users\\yuho\\IdeaProjects\\rssWeb\\web\\IC_js\\"+head_en+".js"),"UTF-8"));
+            String dir = new File(".").getCanonicalPath();
+            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dir+"\\web\\IC_js\\"+head_en+".js"),"UTF-8"));
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
             e.printStackTrace();
         }
         try {
