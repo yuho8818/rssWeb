@@ -7,7 +7,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>﻿设备环保管理</title>
+    <title>﻿污水处理</title>
     <meta name="description" content="这是一个 index 页面">
     <meta name="keywords" content="index">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
     <link rel="stylesheet" href="assets/css/admin.css">
     <link rel="stylesheet" href="IC_css/Communal.css">
+    <script src="IC_js/VerifyTools.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="IC_js/NagivationBar.js"></script>
@@ -37,7 +38,7 @@
 
 
     <script src="IC_js/Communal.js"></script>
-    <script type="text/javascript" src="IC_js/EQUIPENV_INFO.js"></script>
+    <script type="text/javascript" src="IC_js/SEWAGE_INFO1.js"></script>
 
 </head>
 <!--[if lte IE 9]><p class="browsehappy">升级你的浏览器吧！ <a href="http://se.360.cn/" target="_blank">升级浏览器</a>以获得更好的体验！</p>
@@ -76,7 +77,7 @@
 
         <div class="admin-biaogelist">
             <div class="listbiaoti am-cf">
-                <ul class="am-icon-flag on">﻿设备环保管理</ul>
+                <ul class="am-icon-flag on">﻿污水处理</ul>
                 <dl class="am-icon-home" style="float: right;"> 当前位置： 首页 > <a href="#">商品列表</a></dl>
             </div>
 
@@ -130,15 +131,23 @@
                         <th class="table-check"><input type="checkbox" id="check-all"/></th>
                         <th class="table-title" >编号</th>
                         <th class="table-id am-text-center" hidden="hidden">UID</th>
-                        <th class="table-title">设备名称</th>
-                        <th class="table-title">设备编号</th>
-                        <th class="table-title">设备类型</th>
-                        <th class="table-title">所属部门</th>
-                        <th class="table-title">检测指标</th>
-                        <th class="table-title">指标数值</th>
-                        <th class="table-title">是否超标</th>
-                        <th class="table-title">检测日期</th>
-                        <th class="table-title">检测人</th>
+                        <th class="table-title">排放区域</th>
+                        <th class="table-title">排放日期</th>
+                        <th class="table-title">排放地点</th>
+                        <th class="table-title">排放量</th>
+                        <th class="table-title">登记人员</th>
+                        <th class="table-title">登记日期</th>
+                        <th class="table-title">COD含量</th>
+                        <th class="table-title">废酸重金属量</th>
+                        <th class="table-title">废碱重金属量</th>
+                        <th class="table-title">质检日期</th>
+                        <th class="table-title">质检人员</th>
+                        <th class="table-title">回收时间</th>
+                        <th class="table-title">回收人员</th>
+                        <th class="table-title">处理人员</th>
+                        <th class="table-title">处理日期</th>
+                        <th class="table-title">使用设备</th>
+                        <th class="table-title">处理结果</th>
                         <th class="table-title">备注</th>
                     </tr>
                     </thead>
@@ -147,6 +156,14 @@
                         <td><input type="checkbox" id="hidden_check"/></td>
                         <td contenteditable="true"></td>
                         <td class="am-text-center" hidden="hidden"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
+                        <td contenteditable="true"></td>
                         <td contenteditable="true"></td>
                         <td contenteditable="true"></td>
                         <td contenteditable="true"></td>
@@ -183,25 +200,41 @@
                     <tr>
                         <td><input type="checkbox"/></td>
                         <td class="am-text-center">14</td>
-                        <td contenteditable="true" hidden="hidden"><%=entity.getAttributeValue("EQUIPENV_INFOUID") %>
+                        <td contenteditable="true" hidden="hidden"><%=entity.getAttributeValue("SEWAGE_INFOUID") %>
                         </td>
-                        <td contenteditable="true" id="equip_name"><%=entity.getAttributeValue("equipName")!=null ?entity.getAttributeValue("equipName"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("dischargeArea")!=null ?entity.getAttributeValue("dischargeArea"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("equipNo")!=null ?entity.getAttributeValue("equipNo"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("dischargeDate")!=null ?entity.getAttributeValue("dischargeDate"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("equipType")!=null ?entity.getAttributeValue("equipType"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("dischargePlace")!=null ?entity.getAttributeValue("dischargePlace"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("deptartment")!=null ?entity.getAttributeValue("deptartment"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("dischargeVolume")!=null ?entity.getAttributeValue("dischargeVolume"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("testIndex")!=null ?entity.getAttributeValue("testIndex"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("registrant")!=null ?entity.getAttributeValue("registrant"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("testValue")!=null ?entity.getAttributeValue("testValue"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("registerDate")!=null ?entity.getAttributeValue("registerDate"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("isOverproof")!=null ?entity.getAttributeValue("isOverproof"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("cod")!=null ?entity.getAttributeValue("cod"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("testDate")!=null ?entity.getAttributeValue("testDate"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("acIDHeavyMetal")!=null ?entity.getAttributeValue("acIDHeavyMetal"):""%>
                         </td>
-                        <td contenteditable="true"><%=entity.getAttributeValue("testPerson")!=null ?entity.getAttributeValue("testPerson"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("alkalineHeavyMetal")!=null ?entity.getAttributeValue("alkalineHeavyMetal"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("checkPerson")!=null ?entity.getAttributeValue("checkPerson"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("checkDate")!=null ?entity.getAttributeValue("checkDate"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("recycleDate")!=null ?entity.getAttributeValue("recycleDate"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("recyclePeople")!=null ?entity.getAttributeValue("recyclePeople"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("operator")!=null ?entity.getAttributeValue("operator"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("operatorDate")!=null ?entity.getAttributeValue("operatorDate"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("useDevice")!=null ?entity.getAttributeValue("useDevice"):""%>
+                        </td>
+                        <td contenteditable="true"><%=entity.getAttributeValue("result")!=null ?entity.getAttributeValue("result"):""%>
                         </td>
                         <td contenteditable="true"><%=entity.getAttributeValue("remark")!=null ?entity.getAttributeValue("remark"):""%>
                         </td>
@@ -224,6 +257,9 @@
                     </button>
                     <button id="button-modify" type="button" class="am-btn am-btn-default a"><span
                             class="am-icon-pencil-square-o"></span>修改</button>
+                    <button id="button-add_childtable" type="button" class="am-btn am-btn-default"><span
+                            class="am-icon-plus"></span> 新增污水确认信息
+                    </button>
                 </div>
 
                 <ul id="is_page_count" class="am-pagination am-fr">
@@ -286,36 +322,63 @@
             <table class="is-info-modify">
                 <tr hidden="hidden">
                     <td>UID</td>
-                    <td><input id="EQUIPENV_INFOUID"></td>
+                    <td><input id="SEWAGE_INFOUID"></td>
                     </td>
                 </tr>
                 <tr>
                     <td>编码</td>
-                    <td><input id="table_row_no"></td>                    <td>设备名称</td>
-                    <td><input id="equipName"></td>
+                    <td><input id="table_row_no"></td>
+                    <td>排放区域</td>
+                    <td><input id="dischargeArea"></td>
                 </tr>                <tr>
-                    <td>设备编号</td>
-                    <td><input id="equipNo"></td>
-                    <td>设备类型</td>
-                    <td><input id="equipType"></td>
+                    <td>排放日期</td>
+                    <td><input id="dischargeDate"></td>
+                    <td>排放地点</td>
+                    <td><select>
+                        <option value ="0000111" id="sewage_equip">A</option>
+                    </select></td>
                 </tr>
                 <tr>
-                    <td>所属部门</td>
-                    <td><input id="deptartment"></td>
-                    <td>检测指标</td>
-                    <td><input id="testIndex"></td>
+                    <td>排放量</td>
+                    <td><input id="dischargeVolume"></td>
+                    <td>登记人员</td>
+                    <td><input id="registrant"></td>
                 </tr>
                 <tr>
-                    <td>指标数值</td>
-                    <td><input id="testValue"></td>
-                    <td>是否超标</td>
-                    <td><input id="isOverproof"></td>
+                    <td>登记日期</td>
+                    <td><input id="registerDate"></td>
+                    <td>COD含量</td>
+                    <td><input id="cod"></td>
                 </tr>
                 <tr>
-                    <td>检测日期</td>
-                    <td><input id="testDate"></td>
-                    <td>检测人</td>
-                    <td><input id="testPerson"></td>
+                    <td>废酸重金属量</td>
+                    <td><input id="acIDHeavyMetal"></td>
+                    <td>废碱重金属量</td>
+                    <td><input id="alkalineHeavyMetal"></td>
+                </tr>
+                <tr>
+                    <td>质检日期</td>
+                    <td><input id="checkPerson"></td>
+                    <td>质检人员</td>
+                    <td><input id="checkDate"></td>
+                </tr>
+                <tr>
+                    <td>回收时间</td>
+                    <td><input id="recycleDate"></td>
+                    <td>回收人员</td>
+                    <td><input id="recyclePeople"></td>
+                </tr>
+                <tr>
+                    <td>处理人员</td>
+                    <td><input id="operator"></td>
+                    <td>处理日期</td>
+                    <td><input id="operatorDate"></td>
+                </tr>
+                <tr>
+                    <td>使用设备</td>
+                    <td><input id="useDevice"></td>
+                    <td>处理结果</td>
+                    <td><input id="result"></td>
                 </tr>
                 <tr>
                     <td>备注</td>
@@ -323,11 +386,49 @@
                 </tr>            </table>
         </div>
         <div class="am-modal-footer">
-            <span class="am-modal-btn" id="button_sure">确定</span>
-            <span class="am-modal-btn">取消</span>
+            <%--<span class="am-modal-btn" id="button_sure">确定</span>--%>
+            <span id="button_sure" class="am-btn am-btn-default">确定</span>
+            <span id="button_cancel" class="am-btn am-btn-default">取消</span>
+        </div>
+        <div hidden="hidden">
+            <span class="am-modal-btn" hidden="hidden" id="button_cancel_hidden">取消</span>
         </div>
     </div>
 </div>
+
+<div style="width:580px" class="am-modal am-modal-alert" tabindex="-1" id="table_model_child">
+    <div class="am-modal-dialog">
+        <div class="am-modal-hd" id="table_model_name_child"></div>
+        <div class="am-modal-bd">
+            <table class="is-info-modify">
+                <tr>
+                    <td>SEWAGE_INFOUID</td>
+                    <td><input id="SEWAGE_INFOUID_main"></td>
+                    <td>排放区域</td>
+                    <td><input id="dischargeArea_main"></td>
+                </tr>
+                <tr>
+                    <td>子表字段1</td>
+                    <td><input id="child_test1"></td>
+                    <td>子表字段2</td>
+                    <td><input id="child_test2"></td>
+                </tr>
+                </table>
+        </div>
+        <div class="am-modal-footer">
+            <%--<span class="am-modal-btn" id="button_sure">确定</span>--%>
+            <span id="button_sure_child" class="am-btn am-btn-default">确定</span>
+            <span id="button_cancel_child" class="am-btn am-btn-default">取消</span>
+        </div>
+        <div hidden="hidden">
+            <%--<span class="am-modal-btn" id="button_sure">确定</span>--%>
+                <span class="am-modal-btn" display="none" hidden="hidden" id="button_cancel_hidden_child">取消</span>
+        </div>
+
+    </div>
+</div>
+
+
 
 </body>
 </html>

@@ -21,7 +21,7 @@ public class GenerateByCSV {
         this.en_type = new HashMap<String, String>();
         this.en_name = new ArrayList<String>();
         try {
-            this.conn = DriverManager.getConnection("jdbc:sqlserver://152.136.52.249:1433;databaseName=IPM_dev;", "sa", "BGabc123456");
+            this.conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/djangoblog", "root", "88888888");
             this.stmt = conn.createStatement();
         } catch (SQLException e) {
             e.printStackTrace();
@@ -50,7 +50,9 @@ public class GenerateByCSV {
             }
             create_sql +=")";
             System.out.println(create_sql);
-            ResultSet rs = stmt.executeQuery(create_sql);
+//            ResultSet rs = stmt.executeQuery(create_sql);
+            PreparedStatement preStmt=(PreparedStatement) conn.prepareStatement(create_sql);
+            preStmt.executeUpdate();
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {

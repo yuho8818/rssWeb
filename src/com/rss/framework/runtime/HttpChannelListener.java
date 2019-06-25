@@ -118,6 +118,7 @@ public class HttpChannelListener extends HttpServlet {
         long time_diff = end_time.getTime() - start_time.getTime();
         System.out.println(time_diff);
         logger.info("***************FUNCTION [service] END*****************");
+        System.out.println(serviceResult);
     }
 
     /**

@@ -2,26 +2,11 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
     "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-	<!--<bean id="dataSource"	destroy-method="close" class="org.apache.commons.dbcp.BasicDataSource">-->
-		<!--<property name="driverClassName" value="com.mysql.jdbc.Driver" />-->
-		<!--<property name="url" value="jdbc:mysql://localhost:3307/bluk" />-->
-		<!--<property name="username" value="root" />-->
-		<!--<property name="password" value="root" />-->
-		<!--<property name="maxActive" value="100" />-->
-		<!--<property name="maxIdle" value="30" />-->
-		<!--<property name="maxWait" value="1000" />-->
-		<!--<property name="defaultAutoCommit" value="true" />-->
-		<!--<property name="removeAbandoned" value="true" />-->
-		<!--<property name="removeAbandonedTimeout" value="1000" />-->
-		<!--<property name="logAbandoned" value="true" />-->
-	<!--</bean> -->
-
-	
-	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
-		<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
-		<property name="url" value="jdbc:sqlserver://152.136.52.249:1433;databaseName=IPM_dev" />
-		<property name="username" value="sa" />
-		<property name="password" value="BGabc123456" />
+	<bean id="dataSource"	destroy-method="close" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/djangoblog" />
+		<property name="username" value="root" />
+		<property name="password" value="88888888" />
 		<property name="maxActive" value="100" />
 		<property name="maxIdle" value="30" />
 		<property name="maxWait" value="1000" />
@@ -30,6 +15,21 @@
 		<property name="removeAbandonedTimeout" value="1000" />
 		<property name="logAbandoned" value="true" />
 	</bean>
+
+	
+	<!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">-->
+		<!--<property name="driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />-->
+		<!--<property name="url" value="jdbc:sqlserver://152.136.52.249:1433;databaseName=IPM_dev" />-->
+		<!--<property name="username" value="sa" />-->
+		<!--<property name="password" value="BGabc123456" />-->
+		<!--<property name="maxActive" value="100" />-->
+		<!--<property name="maxIdle" value="30" />-->
+		<!--<property name="maxWait" value="1000" />-->
+		<!--<property name="defaultAutoCommit" value="true" />-->
+		<!--<property name="removeAbandoned" value="true" />-->
+		<!--<property name="removeAbandonedTimeout" value="1000" />-->
+		<!--<property name="logAbandoned" value="true" />-->
+	<!--</bean>-->
 
 	
 	<!-- 事务模板 -->
