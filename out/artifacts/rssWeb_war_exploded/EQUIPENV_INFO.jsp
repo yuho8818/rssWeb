@@ -185,7 +185,7 @@
                         <td class="am-text-center">14</td>
                         <td contenteditable="true" hidden="hidden"><%=entity.getAttributeValue("EQUIPENV_INFOUID") %>
                         </td>
-                        <td contenteditable="true" id="equip_name"><%=entity.getAttributeValue("equipName")!=null ?entity.getAttributeValue("equipName"):""%>
+                        <td contenteditable="true"><%=entity.getAttributeValue("equipName")!=null ?entity.getAttributeValue("equipName"):""%>
                         </td>
                         <td contenteditable="true"><%=entity.getAttributeValue("equipNo")!=null ?entity.getAttributeValue("equipNo"):""%>
                         </td>

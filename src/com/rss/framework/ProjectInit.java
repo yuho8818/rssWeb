@@ -7,7 +7,7 @@ import java.io.File;
 public class ProjectInit {
     public static void main(String[] args) {
 
-        String[] tableList = {"Sewage_Info.csv"};
+        String[] tableList = {"EquipEnv_Info.csv"};
 //        "Complaints_Info.csv","Correct_Info.csv","EquipEnv_Info.csv","InternalAudit_Info.csv","ManagementReview_Info.csv",
 //                "OutsIDeAudit_Info.csv","PersonalHealth_Info.csv","QualityControl_Info.csv",
 //                "SafeTrain_Info.csv","SatisfactionSurvey_Info.csv","Sewage_Info.csv",
